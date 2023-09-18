@@ -1,7 +1,11 @@
 package com.example.demo2.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @Entity
 public class Notes {
     @Id
